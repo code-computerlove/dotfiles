@@ -1,0 +1,8 @@
+# ~/.gitconfig
+#
+
+[user]
+	name = Your Name
+	email = you@email.com
+[push]
+	default = simple
