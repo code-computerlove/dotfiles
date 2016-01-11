@@ -1,0 +1,23 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Logging
+*.log
+tmp
+
+# Project meta
+.sass-cache
+*.sublime-workspace
+
+# Don't commit dependencies!
+bower_components
+node_modules
