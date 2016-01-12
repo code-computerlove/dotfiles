@@ -2,7 +2,7 @@
 #
 # ~/.backup.sh
 #
-# This file backs up any current dotfiles on your machine
+# This script backs up any current dotfiles on your machine
 #
 #
 
