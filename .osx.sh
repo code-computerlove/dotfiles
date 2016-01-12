@@ -2,4 +2,6 @@
 #
 # ~/.osx.sh
 #
+# This file sets default options for your OS
+#
 #

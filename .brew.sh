@@ -3,6 +3,7 @@
 # ~/.brew.sh
 #
 # This script installs Homebrew and uses it to install other command line tools
+# It installs Brew Cask and Cask Versions to manage installation of other applications
 #
 #
 
