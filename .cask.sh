@@ -15,7 +15,6 @@ brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" spotify
 
-
 # Browsers
 echo Installing browsers…
 brew cask install --appdir="/Applications" firefox
@@ -29,11 +28,11 @@ echo Installing dev apps…
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" sourcetree
-# uncomment the text editor you’d like
+# Uncomment the text editor you’d like
 # brew cask install --appdir="/Applications" atom
 # brew cask install --appdir="/Applications" sublime-text3
 
-# Cleanup
+# Clean up
 echo Cleaning up…
 brew cleanup --force
 
