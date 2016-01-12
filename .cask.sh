@@ -32,7 +32,6 @@ brew cask install --appdir="/Applications" sourcetree
 # uncomment the text editor you’d like
 # brew cask install --appdir="/Applications" atom
 # brew cask install --appdir="/Applications" sublime-text3
-brew cask install --appdir="/Applications" textwrangler
 
 # Cleanup
 echo Cleaning up…
