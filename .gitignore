@@ -1,5 +1,7 @@
 # ~/.gitignore
 #
+# Global .gitignore for your machine
+#
 
 # Folder view configuration files
 .DS_Store
