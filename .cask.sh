@@ -8,12 +8,16 @@
 #
 #
 
-# Core Functionality
-echo Installing core apps…
+# Development apps
+echo Installing dev apps…
+brew cask install --appdir="/Applications" adobe-creative-cloud
+brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" spotify
+brew cask install --appdir="/Applications" sourcetree
+brew cask install --appdir="/Applications" vmware-fusion
+# Uncomment the text editor you’d like
+# brew cask install --appdir="/Applications" atom
+# brew cask install --appdir="/Applications" sublime-text3
 
 # Browsers
 echo Installing browsers…
@@ -23,16 +27,12 @@ brew cask install --appdir="/Applications" google-chrome
 # brew cask install --appdir="/Applications" google-chrome-canary
 # brew cask install --appdir="/Applications" opera
 
-# Development apps
-echo Installing dev apps…
-brew cask install --appdir="/Applications" adobe-creative-cloud
-brew cask install --appdir="/Applications" imageoptim
-brew cask install --appdir="/Applications" sourcetree
-brew cask install --appdir="/Applications" vmware-fusion
-# Uncomment the text editor you’d like
-# brew cask install --appdir="/Applications" atom
-# brew cask install --appdir="/Applications" sublime-text3
-
+# Additional apps
+echo Installing some additional apps…
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" sonos
+brew cask install --appdir="/Applications" spotify
 
 
 # Clean up
