@@ -4,13 +4,13 @@
 
 ## Backup any current dotfiles
 ```sh
-cd; curl -L https://raw.githubusercontent.com/furzeface/dotfiles/master/.backup.sh > .backup.sh && bash .backup.sh
+cd; curl -L https://raw.githubusercontent.com/code-computerlove/dotfiles/master/.backup.sh > .backup.sh && bash .backup.sh
 ```
 Just to be safe&hellip;
 
 ## Install these files
 ```sh
-cd; curl -#L https://github.com/furzeface/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude=README.md
+cd; curl -#L https://github.com/code-computerlove/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude=README.md
 ```
 
 ### Please note:
