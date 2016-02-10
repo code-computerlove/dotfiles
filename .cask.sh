@@ -32,6 +32,7 @@ echo Installing some additional apps…
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" sonos
+brew cask install --appdir="/Applications" spectacle
 brew cask install --appdir="/Applications" spotify
 
 
