@@ -11,9 +11,10 @@
 # Development apps
 echo Installing dev apps…
 brew cask install --appdir="/Applications" adobe-creative-cloud
+brew cask install --appdir="/Applications" gas-mask
 brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" iterm2
-brew cask install --appdir="/Applications" sourcetree
+# brew cask install --appdir="/Applications" sourcetree
 brew cask install --appdir="/Applications" vmware-fusion
 # Uncomment the text editor you’d like
 # brew cask install --appdir="/Applications" atom
